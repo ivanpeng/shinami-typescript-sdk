@@ -3,7 +3,12 @@
 
 coverage:
   status:
-    project: true
+    project:
+      default:
+        target: auto
+        threshold: 5
+        base: auto
+        only_pulls: true
 comment:
   layout: "diff, files"
   behavior: default
